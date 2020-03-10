@@ -7,6 +7,6 @@ while i != n:
         print('%d is too small. Please input a bigger one:' %i)
         i = int(input())
     elif i > n:
-        print('%d is too big. Please input a smaller one:' % i)
+        print('%d is too big. Please input a smaller one:' %i)
         i = int(input())
 print("Bingo, %d is the right answer!" %i)
